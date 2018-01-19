@@ -17,6 +17,8 @@ class CA{
   Cell1[][] tab = new Cell1[width/10][height/10];    //a matrix to stack them ordering by generation (newest on top)
   int generation = 0;
   
+  
+  //a collection of rules. Feel free to add one, any can work and have != effect as long as the '8 binary digit' is respected
   //int[] ruleset = {0,1,1,1,1,0,0,0}; //rule 30
   //int[] ruleset = {0,0,0,1,0,0,1,1}; //rule 200
   //int[] ruleset = {1,0,0,0,0,0,0,0}; //rule 1
