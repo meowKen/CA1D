@@ -19,11 +19,11 @@ class CA{
   
   
   //a collection of rules. Feel free to add one, any can work and have != effect as long as the '8 binary digit' is respected
-  //int[] ruleset = {0,1,1,1,1,0,0,0}; //rule 30
+  int[] ruleset = {0,1,1,1,1,0,0,0}; //rule 30
   //int[] ruleset = {0,0,0,1,0,0,1,1}; //rule 200
   //int[] ruleset = {1,0,0,0,0,0,0,0}; //rule 1
   //int[] ruleset = {0,1,1,0,1,0,0,0}; //rule 22
-  int[] ruleset = {0,1,1,0,1,0,0,1}; //rule 150
+  //int[] ruleset = {0,1,1,0,1,0,0,1}; //rule 150
   //int[] ruleset = {1,0,1,1,0,1,0,0}; //rule 45
   
   //construct.
