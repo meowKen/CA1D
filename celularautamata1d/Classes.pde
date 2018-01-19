@@ -39,9 +39,8 @@ class CA{
     
   }
   
-  // return a 3 length 1D array containing the neighborhood of the cell w/ index giv. in param.
-  // neighborhood of the cell of index i is : ( i-1 , i , i+1 )
-  
+  //return a 3 length 1D array containing the neighborhood of the cell w/ index giv. in param.
+  //neighborhood of the cell of index i is : ( i-1 , i , i+1 )
   int[] neighborhood(int _I){
     int[] n = {0,0,0};
     int c = 0;
@@ -52,15 +51,14 @@ class CA{
     return n;
   }
   
-  // copy the next generation as the curent generation
-  
+  //copy the next generation as the curent generation
   void copyCA(Cell1[] _C){
     for(int i=0 ; i<cells.length; i++){
       cells[i] = _C[i];
     }
   }
   
-  // shift down every row (prev gen history) and add the last one on top, create this flow down effect
+  //shift down every row (prev gen history) and add the last one on top, create this flow down effect
   void shiftAndAdd(Cell1[] _C){
     for(int i=width/10-1; i>=0; i--){
       for(int j=height/10-2; j>=0; j--){
@@ -85,7 +83,7 @@ class CA{
     generation++;
   }
   
-  // draw everything on screen
+  //draw everything on screen
   void show(){
     for(int i=0; i<width/10; i++){
       for(int j=0; j<height/10; j++){
@@ -98,4 +96,5 @@ class CA{
       }
     }
   }
+  
 };
