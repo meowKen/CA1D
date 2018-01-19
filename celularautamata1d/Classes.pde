@@ -41,6 +41,7 @@ class CA{
   
   // return a 3 length 1D array containing the neighborhood of the cell w/ index giv. in param.
   // neighborhood of the cell of index i is : ( i-1 , i , i+1 )
+  
   int[] neighborhood(int _I){
     int[] n = {0,0,0};
     int c = 0;
@@ -52,6 +53,7 @@ class CA{
   }
   
   // copy the next generation as the curent generation
+  
   void copyCA(Cell1[] _C){
     for(int i=0 ; i<cells.length; i++){
       cells[i] = _C[i];
